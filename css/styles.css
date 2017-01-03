@@ -1,0 +1,777 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ---------- Barra de navegación ---------- */
+body {
+	overflow-x:hidden;
+}
+
+.own-nav {
+	background-color:#ffffff;
+	font-family:'Architects Daughter', cursive;
+}
+
+.own-nav ul {
+	text-align:center;
+	padding-top:17px;
+	padding-right:0px;
+	padding-bottom:7px;
+	padding-left:0px;
+}
+
+.own-nav li {
+	display:inline-block;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.own-nav a {
+	text-decoration:none;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:7px;
+	padding-right:20px;
+	padding-bottom:7px;
+	padding-left:20px;
+	border-radius:5px;
+}
+
+.own-nav a:hover {
+	background-color:#e08c87;
+	color:#ffffff;
+}
+
+@media only screen and (max-width:767px)
+{
+	.own-nav {
+		background-color:#e08c87;
+	}
+	
+	.own-nav button {
+		border:1px solid #e08c87;
+		background-color:#ffffff;
+		color:#E08C87;
+		font-weight:bold;
+	}
+	
+	.own-nav ul {
+		text-align:left;
+		padding-top:0px;
+		padding-right:0px;
+		padding-bottom:0px;
+		padding-left:30px;
+		overflow-x: hidden;
+		
+	}
+	
+	.own-nav li {
+		margin-top:15px;
+		margin-right:500px;
+		margin-bottom:5px;
+		margin-left:0px;
+	}
+
+	.own-nav a {
+		color:#ffffff;
+		font-size:20px;
+		padding:0px;
+	}
+
+	.own-nav a:hover {
+		background-color:#e08c87;
+		color:#ffffff;
+	}
+}
+
+/* Apartado de Presentación */
+.own-presentation {
+	background-color:#bfe1dd;
+	background-image:url(../img/background.png);
+	background-repeat:repeat;
+}
+
+.own-presentation h1 {
+	font-family:'Gochi Hand', cursive;
+	color:#ffffff;
+	text-align:center;
+	font-size:120px;
+	padding-top:50px;
+	text-shadow:-2px -2px 1px #383838, 2px 2px 1px #383838, -2px 2px 1px #383838, 2px -2px 1px #383838;	
+}
+
+.own-presentation ul {
+	list-style:none;
+	text-align:center;
+	padding-top:30px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+}
+
+.own-presentation li {
+	display:inline;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+.own-presentation img {
+	margin-top:70px;
+	margin-bottom:60px;
+	width:200px;
+	height:200px;	
+}
+
+.own-tooltip + .tooltip > .tooltip-inner {
+	background-color:#e08c87;
+	color:#ffffff;
+	font-family:'Architects Daughter', cursive;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+
+.own-tooltip + .tooltip.bottom > .tooltip-arrow {
+      border-bottom:5px solid #e08c87;
+ }
+
+@media only screen and (max-width:1080px)
+{
+	.own-presentation h1 {
+		font-size:80px;
+	}
+	
+	.own-presentation li {
+		margin-right:30px;
+		margin-left:30px;
+	}
+
+	.own-presentation img {
+		margin-top:70px;
+		margin-bottom:60px;
+		width:150px;
+		height:150px;	
+	}
+}
+
+@media only screen and (max-width:870px)
+{
+	.own-presentation h1 {
+		font-size:100px;
+	}
+	
+	.own-presentation li {
+		margin-right:20px;
+		margin-left:20px;
+	}
+
+	.own-presentation img {
+		margin-top:70px;
+		margin-bottom:60px;
+		width:150px;
+		height:150px;	
+	}
+}
+
+@media only screen and (max-width:790px)
+{
+	.own-presentation h1 {
+		font-size:80px;
+	}
+	
+	.own-presentation li {
+		margin-right:20px;
+		margin-left:20px;
+	}
+
+	.own-presentation img {
+		margin-top:70px;
+		margin-bottom:60px;
+		width:125px;
+		height:125px;	
+	}
+}
+
+@media only screen and (max-width:690px)
+{
+	.own-presentation h1 {
+		font-size:80px;
+	}
+	
+	.own-presentation li {
+		display:inline;
+		margin-right:20px;
+		margin-left:20px;
+	}
+
+	.own-presentation img {
+		margin-top:0px;
+		margin-bottom:60px;
+		width:200px;
+		height:200px;	
+	}
+}
+
+@media only screen and (max-width:449px)
+{
+	.own-presentation h1 {
+		font-size:60px;
+		padding-top:10px;
+	}
+	
+	.own-presentation ul {
+		margin:0px;
+		padding-top:20px;
+		padding-right:0px;
+		padding-bottom:0px;
+		padding-left:0px;
+	}
+
+	.own-presentation li {
+		display:inline;
+		margin-right:10px;
+		margin-left:10px;
+	}
+
+	.own-presentation img {
+		margin-top:0px;
+		margin-bottom:40px;
+		width:125px;
+		height:125px;	
+	}
+	
+	.own-tooltip + .tooltip > .tooltip-inner {
+		font-size:14px;
+		padding-top:3px;
+		padding-right:10px;
+		padding-bottom:3px;
+		padding-left:10px;
+	}
+}
+
+/* ---------- Welcome ---------- */
+.own-welcome {
+	font-family:'Architects Daughter', cursive;
+	text-align:center;
+}
+
+.own-welcome h2 {
+	font-size:100px;
+}
+
+.own-welcome p {
+	margin-top:0px;
+	margin-right:50px;
+	margin-bottom:30px;
+	margin-left:50px;
+	font-size:30px;
+	line-height:2;
+	text-align:justify;	
+}
+
+.own-video {
+	margin:auto;
+}
+
+.own-video video {
+	width:90%;
+	margin-top:40px;
+	margin-bottom:40px;
+	border:1px solid #333333;
+	outline-style:solid;
+	outline-width:5px;
+	outline-color:#e08c87;
+	outline-offset:10px;
+}
+
+@media only screen and (min-width:1800px)
+{
+	.own-welcome h2 {
+		margin-top:50px;
+	}
+}
+
+@media only screen and (max-width:1447px)
+{
+	.own-welcome h2 {
+		font-size:90px;
+	}
+
+	.own-welcome p {
+		font-size:24px;	
+	}
+}
+
+@media only screen and (max-width:1207px)
+{
+	.own-welcome h2 {
+		font-size:80px;
+	}
+
+	.own-welcome p {
+		font-size:30px;
+	}
+	
+	.own-video video {
+		margin-bottom:60px;
+		margin-left:50px;
+	}
+}
+
+@media only screen and (max-width:900px)
+{
+	.own-video video {
+		margin-bottom:60px;
+		margin-left:45px;
+	}
+}
+
+@media only screen and (max-width:780px)
+{
+	.own-video video {
+		margin-bottom:60px;
+		margin-left:40px;
+	}
+}
+
+@media only screen and (max-width:600px)
+{
+	.own-video video {
+		margin-bottom:60px;
+		margin-left:30px;
+	}
+}
+
+@media only screen and (max-width:449px)
+{
+	.own-welcome h2 {
+		font-size:60px;
+	}
+	
+	.own-welcome p {
+		margin-top:0px;
+		margin-right:20px;
+		margin-bottom:30px;
+		margin-left:20px;
+		font-size:20px;
+	}
+	
+	.own-video video {
+		margin-top:10px;
+		margin-right:5%;
+		margin-bottom:30px;
+		margin-left:5%;
+	}
+}
+
+/* ---------- Youtube ---------- */
+.own-youtube-bg {
+	background-color:#e08c87;
+}
+
+.own-youtube {
+	font-family:'Architects Daughter', cursive;
+	text-align:center;
+	color:#ffffff;
+}
+
+.own-youtube h2 {
+	font-size:100px;
+}
+
+.own-youtube p {
+	margin-top:0px;
+	margin-right:50px;
+	margin-bottom:30px;
+	margin-left:50px;
+	font-size:30px;
+	line-height:2;
+	text-align:justify;	
+}
+
+.own-video {
+	margin:auto;
+}
+
+.own-video embed {
+	width:90%;
+	height:500px;
+	margin-top:50px;
+	margin-bottom:40px;
+	margin-left:80px;
+	border:1px solid #333333;
+	outline-style:solid;
+	outline-width:5px;
+	outline-color:#ffffff;
+	outline-offset:10px;
+}
+
+@media only screen and (max-width:1700px)
+{
+	.own-youtube h2 {
+		font-size:90px;
+		margin-top:30px;
+	}
+	
+	.own-youtube p {
+		margin-top:0px;
+		margin-right:50px;
+		margin-bottom:30px;
+		margin-left:50px;
+		font-size:24px;
+	}
+	
+	.own-video embed {
+		height:400px;
+		margin-top:50px;
+		margin-bottom:40px;
+		margin-left:60px;
+	}
+}
+
+@media only screen and (max-width:1600px)
+{
+	.own-youtube h2 {
+		margin-top:20px;
+	}
+	
+	.own-youtube p {
+		font-size:22px;
+		margin-left:30px;
+	}
+	
+	.own-video embed {
+		width:700px;
+		height:350px;
+	}
+}
+
+@media only screen and (max-width:1500px)
+{
+	.own-youtube h2 {
+		margin-top:20px;
+	}
+	
+	.own-youtube p {
+		font-size:20px;
+		margin-left:10px;
+	}
+	
+	.own-video embed {
+		width:600px;
+		height:300px;
+	}
+}
+
+@media only screen and (max-width:1400px)
+{
+	.own-youtube h2 {
+		margin-top:30px;
+	}
+	
+	.own-youtube p {
+		font-size:18px;
+		margin-left:30px;
+	}
+}
+
+@media only screen and (max-width:1300px)
+{
+	.own-youtube h2 {
+		margin-top:30px;
+	}
+	
+	.own-youtube p {
+		font-size:18px;
+		margin-left:0px;
+	}
+	
+	.own-video embed {
+		width:500px;
+		height:300px;
+	}
+}
+
+@media only screen and (max-width:1199px)
+{
+	.own-youtube h2 {
+		margin:0px;
+		font-size:100px;
+	}
+
+	.own-youtube p {
+		margin-top:0px;
+		margin-right:50px;
+		margin-bottom:30px;
+		margin-left:50px;
+		font-size:30px;
+		line-height:2;
+		text-align:justify;	
+	}
+
+	.own-video {
+		margin:auto;
+	}
+
+	.own-video embed {
+		width:90%;
+		height:500px;
+		margin-top:50px;
+		margin-bottom:40px;
+		margin-left:5%;
+	}
+}
+
+@media only screen and (max-width:800px)
+{
+		.own-video embed {
+			height:400px;
+		}
+}
+
+@media only screen and (max-width:449px)
+{
+	.own-youtube h2 {
+		font-size:60px;
+	}
+
+	.own-youtube p {
+		margin-top:0px;
+		margin-right:20px;
+		margin-bottom:30px;
+		margin-left:20px;
+		font-size:20px;
+	}
+
+	.own-video {
+		margin:auto;
+	}
+
+	.own-video embed {
+		height:220px;
+		margin-top:40px;
+		margin-right:5%;
+		margin-bottom:40px;
+		margin-left:5%;
+	}
+}
+
+/* ---------- Instagram ---------- */
+.own-instagram-bg {
+	background-color:#bfe1dd;
+}
+
+.own-instagram {
+	font-family:'Architects Daughter', cursive;
+	text-align:center;
+}
+
+.own-instagram h2 {
+	margin-top:50px;
+	font-size:100px;
+}
+
+.own-instagram p {
+	margin-top:20px;
+	margin-right:50px;
+	margin-bottom:30px;
+	margin-left:50px;
+	font-size:25px;
+	line-height:2;
+	text-align:justify;
+	font-weight:bold;
+}
+
+.own-instagram img {
+	padding:20px;
+}
+
+@media only screen and (max-width:1700px)
+{
+	.own-instagram h2 {
+		font-size:80px;
+	}
+	.own-instagram p {
+		font-size:23px;
+		margin-top:10px;
+		margin-bottom:0px;
+	}
+}
+
+@media only screen and (max-width:1510px)
+{
+	.own-instagram p {
+		font-size:20px;
+		margin-bottom:0px;
+	}
+}
+
+@media only screen and (max-width:1447px)
+{
+	.own-instagram h2 {
+		margin-top:10px;
+		font-size:80px;
+	}
+	
+	.own-instagram p {
+		font-size:20px;
+		margin-left:50px;
+	}
+}
+
+@media only screen and (max-width:1345px)
+{	
+	.own-instagram p {
+		font-size:18px;
+	}
+}
+
+@media only screen and (max-width:1277px)
+{	
+	.own-instagram p {
+		font-size:16px;
+	}
+}
+
+@media only screen and (max-width:1199px)
+{	
+	.own-instagram h2 {
+		font-size:100px;
+	}
+	.own-instagram p {
+		font-size:30px;
+	}
+}
+
+@media only screen and (max-width:449px)
+{
+	.own-instagram h2 {
+		font-size:60px;
+	}
+	
+	.own-instagram p {
+		margin-top:0px;
+		margin-right:20px;
+		margin-bottom:0px;
+		margin-left:20px;
+		font-size:20px;
+	}
+}
+
+/* ---------- Contact ---------- */
+.own-contact-bg {
+	background-color:#CBCACA;
+	background-image:url(../img/bg_contact.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.own-contact {
+	font-family:'Architects Daughter', cursive;
+	text-align:center;
+	color:#323232;
+}
+
+.own-contact h2 {
+	font-size:100px;	
+}
+
+.own-contact p {
+	margin-top:20px;
+	margin-right:50px;
+	margin-bottom:30px;
+	margin-left:50px;
+	font-size:30px;
+	line-height:2;
+}
+
+.own-contact li {
+	display:inline-block;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.own-contact img {
+	width:100px;
+	height:100px;	
+}
+
+.own-contact_img li {
+	display:inline-block;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.own-contact_img img {
+	margin-top:50px;
+	margin-right:20px;
+	margin-bottom:50px;
+	margin-left:20px;
+	width:200px;
+	height:200px;
+}
+
+@media screen and (max-width:1596px)
+{
+	.own-contact_img img {
+		width:150px;
+		height:150px;
+	}
+}
+
+@media screen and (max-width:1329px)
+{
+	.own-contact_img img {
+		width:125px;
+		height:125px;
+	}
+}
+
+@media screen and (max-width:1196px)
+{
+	.own-contact_img img {
+		width:200px;
+		height:200px;
+	}
+}
+
+@media screen and (max-width:449px)
+{
+	.own-contact h2 {
+		font-size:60px;	
+	}
+
+	.own-contact p {
+		font-size:20px;
+		font-weight:bold;
+	}
+
+	.own-contact li {
+		display:inline-block;
+		margin-right:10px;
+		margin-left:10px;		
+	}
+
+	.own-contact img {
+		width:100px;
+		height:100px;	
+	}
+
+	.own-contact_img li {
+		display:inline-block;
+		margin-right:0px;
+		margin-left:0px;
+	}
+
+	.own-contact_img img {
+		margin-top:15px;
+		margin-right:20px;
+		margin-bottom:15px;
+		margin-left:20px;
+		width:100px;
+		height:100px;
+	}
+}
